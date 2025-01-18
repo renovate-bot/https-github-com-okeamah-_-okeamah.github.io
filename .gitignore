@@ -1,0 +1,27 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Node.js (if you're using npm or yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Bundler (for Ruby/Jekyll projects)
+.bundle/
+vendor/
+Gemfile.lock
+
+# Jekyll-specific
+_site/
+.sass-cache/
+
+# Other
+.env
+.idea/
+.vscode/
+*.swp
