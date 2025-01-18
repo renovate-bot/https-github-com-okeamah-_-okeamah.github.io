@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boom Token Reward</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Boom Token Reward</h1>
+    <p>Your decentralized platform for BOOM token rewards.</p>
+  </header>
+
+  <main>
+    <button id="connectWallet" onclick="connectWallet()">Connect Wallet</button>
+    <div id="userAddress" style="margin-top: 20px; font-weight: bold;"></div>
+
+    <section id="rewardsSection" style="margin-top: 30px; display: none;">
+      <h2>Your Rewards</h2>
+      <p id="rewardAmount">Fetching rewards...</p>
+      <button onclick="claimRewards()">Claim Rewards</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Boom Token Reward. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
